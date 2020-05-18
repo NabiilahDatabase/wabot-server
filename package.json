@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "fs-extra": "^9.0.0",
+    "graphql-yoga": "^1.18.3",
+    "logrocket": "^1.0.7",
     "lowdb": "^1.0.0",
     "nodemon": "^2.0.3",
     "sulla": "^2.3.14"

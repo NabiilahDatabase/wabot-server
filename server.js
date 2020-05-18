@@ -167,7 +167,7 @@ const clientHandler = (id) => {
     });
 }
 const isSessionExist = (id) => {
-    const restrictedId = ['server', 'node_modules'];
+    const restrictedId = ['server', 'node_modules', 'graphql'];
     if (restrictedId.includes(id)) return 'restricted';
 
     const sessions = db.get('sessions').value();
